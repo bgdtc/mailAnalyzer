@@ -167,7 +167,7 @@ async function getAccessTokenFromRefreshToken() {
   const clientSecret = process.env.MICROSOFT_CLIENT_SECRET;
   const tenantId = process.env.MICROSOFT_TENANT_ID || 'common';
   const refreshToken = process.env.MICROSOFT_REFRESH_TOKEN;
-  const email = process.env.EMAIL || 'theo.bogdan@hotmail.com';
+  const email = process.env.EMAIL || 'monmail@hotmail.com';
 
   if (!refreshToken) {
     throw new Error('MICROSOFT_REFRESH_TOKEN n\'est pas configuré. Vous devez d\'abord obtenir un refresh token.');
@@ -571,7 +571,7 @@ function generateReport(acceptedCandidatures, rejectedCandidatures) {
  * Envoie le rapport par email via Microsoft Graph API (OAuth2)
  */
 async function sendReport(htmlReport, accessToken) {
-  const email = process.env.EMAIL || 'theo.bogdan@hotmail.com';
+  const email = process.env.EMAIL || 'monmail@hotmail.com';
   const recipient = process.env.RECIPIENT_EMAIL || email;
 
   // Utiliser Microsoft Graph API pour envoyer l'email au lieu de SMTP
@@ -649,7 +649,7 @@ async function sendReport(htmlReport, accessToken) {
 exports.handler = async (event) => {
   console.log('Démarrage de l\'analyse des mails...');
   
-  const email = process.env.EMAIL || 'theo.bogdan@hotmail.com';
+  const email = process.env.EMAIL || 'monmail@hotmail.com';
   
   try {
     // Obtenir un access token OAuth2
