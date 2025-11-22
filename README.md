@@ -51,7 +51,7 @@ Consultez le fichier **`OAUTH_SETUP.md`** pour les instructions complètes de co
 
 Configurez ces variables dans la console AWS Lambda > Configuration > Variables d'environnement :
 
-- `EMAIL` : Adresse email Outlook/Hotmail (ex: `theo.bogdan@hotmail.com`)
+- `EMAIL` : Adresse email Outlook/Hotmail (ex: `monmail@hotmail.com`)
 - `MICROSOFT_CLIENT_ID` : ID client de votre application Azure AD
 - `MICROSOFT_CLIENT_SECRET` : Secret client de votre application Azure AD
 - `MICROSOFT_TENANT_ID` : ID tenant (utilisez `common` pour les comptes personnels)
