@@ -1,5 +1,7 @@
 # Mail Analyzer - Lambda Function
 
+#Fully Vibe coded :p    
+
 Fonction Lambda AWS pour analyser les emails de réponses aux candidatures et générer un rapport des candidatures retenues.
 
 ## Fonctionnalités
