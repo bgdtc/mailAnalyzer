@@ -1,0 +1,19 @@
+# Dépendances
+node_modules/
+package-lock.json
+
+# Fichiers de déploiement
+*.zip
+lambda-deployment.zip
+
+# Variables d'environnement locales
+.env
+get-refresh-token.js
+
+# Logs
+*.log
+npm-debug.log*
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
