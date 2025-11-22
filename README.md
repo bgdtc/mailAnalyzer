@@ -64,7 +64,7 @@ Configurez ces variables dans la console AWS Lambda > Configuration > Variables 
 ### Configuration Lambda recommandée
 
 - **Runtime** : Node.js 18.x ou 20.x
-- **Timeout** : 60 secondes (ajustable selon le volume d'emails)
+- **Timeout** : 5 minutes (ajustable selon le volume d'emails)
 - **Mémoire** : 512 MB (ajustable)
 - **Région** : eu-west-3
 
@@ -110,24 +110,6 @@ La fonction identifie les réponses de candidature en cherchant ces mots-clés d
 - recrutement
 - application
 - candidature pour
-
-### Mots-clés positifs (retenu)
-
-- retenu / retenue
-- accepté / acceptée
-- intéressé / intéressée
-- sélectionné / sélectionnée
-- retenu pour
-- entretien
-- convaincu / convaincue
-- apprécié / appréciée
-
-### Mots-clés négatifs (exclusion)
-
-- refus / refusé / refusée
-- non retenu / non retenue
-- déclinée / décliner
-- ne correspond pas
 
 ## Sécurité
 
